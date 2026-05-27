@@ -5,12 +5,12 @@ An end-to-end data science project exploring the mathematical relationship betwe
 
 ---
 
-## 📊 Phase 1: Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 * **Data Cleaning:** Handled missing values, dropped irrelevant features, and verified data types across the dataset.
 * **Key Insight (The "Stress Cliff"):** Visualized a sharp increase in stress levels when sleep drops below **6.3 hours**.
 * **The Demographic Anomaly:** Discovered that **Teachers** exhibited a unique resilience to moderate sleep deprivation, maintaining lower stress levels (4.0) compared to high-stakes fields like healthcare.
 
-## 🤖 Phase 2: Machine Learning Implementation
+## Machine Learning Implementation
 Built a **Linear Regression** model using `Scikit-Learn` to predict an individual's stress level based on their sleep duration.
 
 * **Data Split:** Implemented an 80/20 train/test split, yielding a training set of **299 rows** and a validation test set of **75 rows**.
@@ -18,5 +18,5 @@ Built a **Linear Regression** model using `Scikit-Learn` to predict an individua
 * **Predictive Power:** * Predicted Stress for **5 hours of sleep**: `9.13` (High Stress)
     * Predicted Stress for **9 hours of sleep**: `2.08` (Low Stress)
 
-## 📈 Visualizing the Best Fit Line
-The model creates a linear mathematical trendline through the messy, real-world data points. Residual analysis revealed that the model's largest outliers (~2.5 units off) occurred around the 6.5-hour sleep mark, indicating opportunities for future multi-variable modeling.
+## Visualizing the Best Fit Line
+The model creates a linear mathematical trendline through the real-world data points. Analysis revealed that the model's largest outliers (~2.5 units off) occurred around the 6.5-hour sleep mark, indicating opportunities for future multi-variable modeling.
