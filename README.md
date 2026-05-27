@@ -1,6 +1,8 @@
 
 # Sleep vs. Stress: Predictive Analysis & Machine Learning
 
+Data set obtained from kaggle  - https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset
+
 An end-to-end data science project exploring the mathematical relationship between lifestyle habits and mental well-being, concluding with a predictive Machine Learning model.
 
 ---
